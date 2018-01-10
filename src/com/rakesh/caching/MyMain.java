@@ -2,7 +2,7 @@ package com.rakesh.caching;
 
 import java.util.Date;
 
-import org.ehcache.Cache;
+import javax.cache.Cache;
 
 public class MyMain {
 
@@ -36,6 +36,11 @@ public class MyMain {
 			p = new Person(i, "firstName-"+1, "lastName-"+i);
 			System.out.println("Key: " + i + ", Value: " +personCache.get(i));
 		}
+		
+		System.out.println("Cache Usage Statitics");
+		System.out.println("--------------------");
+        System.out.println(AppCacheManager.getInstance().getStatistics(personCache));
+		
 	}
 
 }
