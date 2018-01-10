@@ -1,1 +1,2 @@
-# ehcache-jcache
+# Use EhCache3 as JCache (JSR-107) Implementation with Cache Statistics
+View my blog post [https://readtorakesh.blogspot.com/2018/01/use-ehcache3-as-jcache-jsr-107.html](https://readtorakesh.blogspot.com/2018/01/use-ehcache3-as-jcache-jsr-107.html) for explanation and usage of code in this repository
